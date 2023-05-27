@@ -64,10 +64,10 @@ Time estimate = 10 - 12 hrs
 Estimate => 1 - 2 days  
 
 #### Ticket 4: Update generateReport function
-  - When generating reports, get the friendly id using getFriendlyId API to add the friendly id to the agent metadata. IF a id is not present in the the table, use the original one
+  - When generating reports, get the friendly id using getFriendlyId API to add the friendly id to the agent metadata. If an id is not present in the the table, use the original one
     Test case:
        - Validate the response is correct
-       - If a id is not present, generate with the original one
+       - If an id is not present, generate with the original one
        - Handle the cases when getFriendlyId is down.
 
 Estimate => 4-6 hrs
