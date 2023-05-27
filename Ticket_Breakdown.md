@@ -23,6 +23,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 		-  facility_id =>  mapped to facility_id in Facility table (Data Type should of id column in agent table)
 		-  friendly_id => Customisable by facilities (type can be string or uuid depending on how we want the user to customize it, but  this should  be unique for a facility id)
 
+Acceptance criteria / test cases 
 - Make sure that after writing migrations every test is passing and data integrity is maintained.
 - For cascading options => 
 	- we don't want to delete the row on the deletion of the corresponding row in the Agents table, because this is the record and facilities would want the data even if the agent is deleted from our platform.

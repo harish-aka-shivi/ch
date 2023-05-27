@@ -9,3 +9,11 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+- Remove the magic values. Some values like algorithm type and hex-encoding should be constant and customizable. So make sense to abstract them
+- Write test cases for falsy values, when partition key is not present and when every thing is working fine
+- Try to remove nested if loop by abstracting the falsy event case
+- Rename the variable name "candidate" to "partitionKeyCandidate". It makes it more clear
+- Json.stringify can throw error. So log that error and sent a custom error or same error back
+- Abstract the encryption function
+- Use the constants in test cases to assert
