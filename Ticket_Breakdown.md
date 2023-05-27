@@ -29,7 +29,7 @@ Acceptance criteria / test cases
 	- we don't want to delete the row on the deletion of the corresponding row in the Agents table, because this is the record and facilities would want the data even if the agent is deleted from our platform.
 	- On deletion of the facility, we can archive it for our records but that depends. Let's discuss it more  
 
-Time Estimation => 2-3 hrs
+Time Estimation => 6-8 hrs
 
 #### Ticket 2: Make APIs
  - We would create two/three APIs for it
@@ -52,7 +52,7 @@ Time Estimation => 2-3 hrs
 			- Same user authorization and data-type authorization as mentioned in Create API
 
 Run integration tests, 
-Time estimate = 5-8 hrs 
+Time estimate = 10 - 12 hrs 
 				  
 #### Ticket 3:  Create frontend:
    Make a UI to let facilities create/update the Agent's friendly Id.
@@ -70,4 +70,4 @@ Estimate => 1 - 2 days
        - If a id is not present, generate with the original one
        - Handle the cases when getFriendlyId is down.
 
-Estimate => 1-2 hr
+Estimate => 4-6 hrs
